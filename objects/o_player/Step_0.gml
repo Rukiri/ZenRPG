@@ -49,3 +49,9 @@ if moving == true {
 // Keep Object within the map boundries
 x=clamp(x,0,room_width-sprite_width);
 y=clamp(y,0,room_height-sprite_height);
+
+if keyboard_check(vk_enter) {
+	State_Machine_Set("test1");	
+} else if keyboard_check(vk_space) {
+	State_Machine_Set("test4");
+}

@@ -6,5 +6,4 @@ map = ds_list_find_value(state_list,i);
 draw_text(x,y+_y, "State Name " + ds_map_find_value(map,State.name) + " " + string(i));
 _y+=32;
 }
-var idle = ds_list_find_value(state_list,1);
 draw_text(x,y+_y,"Current State: " + state_name); // current state;

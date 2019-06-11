@@ -16,13 +16,12 @@ for (xx = 0; xx< state_size; xx++) {
 		state_name = string(argument0);
 		
 		return xx;  
+	} else {
+		// Display Error Message
+		Error_Log("Hey bud, I don't think this state was in our database.");
+		break;
 	}
 }
-
-// Display Error Message
-Error_Log("Hey bud, I don't think this state was in our database.");
-	
-return -1;
 
 //--------------------------------------------------------------------
 // End Script

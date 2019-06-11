@@ -191,6 +191,22 @@
             }
         },
         {
+            "Key": "64650e16-d995-4983-94b0-e441d34275d1",
+            "Value": {
+                "id": "8e6ef7e8-eeb6-4f8e-a057-e5668d0413ac",
+                "resourcePath": "scripts\\Sub_State_Machine_Create\\Sub_State_Machine_Create.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6bc8295f-6f6f-4121-b70f-23ce27e53793",
+            "Value": {
+                "id": "6f484702-77ca-4ff4-963a-d6ebdbe822ab",
+                "resourcePath": "scripts\\Sub_State_Machine_Count\\Sub_State_Machine_Count.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "6c79117e-2008-4d42-b989-be2b354f2dab",
             "Value": {
                 "id": "3b239688-85f6-4dee-aff3-0d4cf604ac3c",
@@ -223,6 +239,14 @@
             }
         },
         {
+            "Key": "7b39b306-5bd9-4027-959e-28bd9fd5af5e",
+            "Value": {
+                "id": "fb029e2b-2c8e-4d7d-a65d-c123bc971840",
+                "resourcePath": "scripts\\Sub_State_Machine_Clear\\Sub_State_Machine_Clear.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7bfc0a0d-4659-4c77-9ad4-0cd6ca69c807",
             "Value": {
                 "id": "4a400c0a-3294-4a7b-b9ad-3ab9737a6e01",
@@ -235,6 +259,14 @@
             "Value": {
                 "id": "dc37f386-0241-498d-8c51-211af9fb8835",
                 "resourcePath": "scripts\\Macros\\Macros.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "86339a7c-532f-4818-a57b-73ade9a2f056",
+            "Value": {
+                "id": "2fe10a4d-ebef-41a3-9b24-1c5fefec709c",
+                "resourcePath": "scripts\\Sub_State_Machine_Set\\Sub_State_Machine_Set.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -284,6 +316,14 @@
                 "id": "a36612e9-b6c5-419b-859f-68b46d4e19f6",
                 "resourcePath": "scripts\\State_Machine_Clear\\State_Machine_Clear.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "9cf938c8-dc7e-45bb-9046-37817ec04d54",
+            "Value": {
+                "id": "a5fb2de2-a1b7-4ea9-889b-8625e2428a4a",
+                "resourcePath": "views\\9cf938c8-dc7e-45bb-9046-37817ec04d54.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -470,6 +510,10 @@
         "700705c2-7a9b-42f0-8e95-bb15e6b25353",
         "155ccb3c-baa3-4f5f-b1fe-6fd8aab5ac23",
         "970b32c7-8eee-424b-a180-a82fdbb23393",
+        "64650e16-d995-4983-94b0-e441d34275d1",
+        "86339a7c-532f-4818-a57b-73ade9a2f056",
+        "6bc8295f-6f6f-4121-b70f-23ce27e53793",
+        "7b39b306-5bd9-4027-959e-28bd9fd5af5e",
         "f5de7b14-bfe3-4643-935f-3ad7ee8f5c68",
         "641e2fa8-2b85-4bf7-bb19-fd17511f566b",
         "c89272c5-1b3d-40cd-8bda-1e2702f640c8"
