@@ -8,7 +8,6 @@ key_up = keyboard_check(vk_up);
 
 // Object Position and Direction
 var move_direction, dir, xpos, ypos, hspd, vspd;
-var delta = delta_time / 1000000;
 hspd = move_speed;
 vspd = move_speed;
 xpos = key_right - key_left ;
@@ -33,16 +32,16 @@ move_ypos = abs(ypos);
 if moving == true {
 	if enable_diagonal_movement == true {
 		if move_xpos {
-			x += hspd * cos(move_direction) * delta;	
+			x += hspd * cos(move_direction) * DELTA;	
 		}
 		if move_ypos {
-			y += vspd * -sin(move_direction) * delta;	
+			y += vspd * -sin(move_direction) * DELTA;	
 		}
 	} else {
 		// Disable Diagonal Movement
 		if move_xpos + move_ypos == 1 {
-			x += hspd * cos(move_direction) * delta;	
-			y += vspd * -sin(move_direction) * delta;	
+			x += hspd * floor(cos(move_direction) * DELTA);	
+			y += vspd * floor(-sin(move_direction) * DELTA);	
 		}
 	}
 }

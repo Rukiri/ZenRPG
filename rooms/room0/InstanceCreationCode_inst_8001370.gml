@@ -1,0 +1,1 @@
+map_location = "start room";
