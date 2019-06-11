@@ -1,7 +1,7 @@
 //--------------------------------------------------------------------
 // RPG Finite State Machines
 // Usage: 
-// State_Machine_Set("Name_Of_State");
+// Sub_State_Machine_Set("Name_Of_State");
 //--------------------------------------------------------------------
 
 // Variables Needed
