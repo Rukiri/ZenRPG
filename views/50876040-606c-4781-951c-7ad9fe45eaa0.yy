@@ -12,7 +12,7 @@
         "9cf938c8-dc7e-45bb-9046-37817ec04d54"
     ],
     "filterType": "GMScript",
-    "folderName": "StateMachines",
+    "folderName": "State Machines",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

@@ -55,3 +55,5 @@ if keyboard_check(vk_enter) {
 } else if keyboard_check(vk_space) {
 	State_Machine_Set("test4");
 }
+
+test = RPG_Actor_Get_Stats_By_Index(2, Actor.Class);
