@@ -9,8 +9,8 @@ _y+=32;
 draw_text(x,y+_y,"Current State: " + state_name); // current state;
 
 // in party only stats
-for (var i = 0; i < RPG_Party_Database_Count(); i += 1) {
-	var map = RPG_Actor_Get_Stats_By_Index(i, Actor.Class);
+for (var i = 0; i < RPG_Party_Count(); i += 1) {
+	var map = RPG_Party_Get_Stats_By_Index(i, Actor.Class);
 	draw_text(6, i*16, string(map));
 }
 

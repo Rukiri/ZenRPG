@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "05ca6be2-db6f-40d2-918c-d044d5daf1bc",
+            "Value": {
+                "id": "075dd61a-6b95-4f41-9257-2c2070804f73",
+                "resourcePath": "scripts\\RPG_Party_Get_By_Name\\RPG_Party_Get_By_Name.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "06a3ae6d-9c82-4b36-acc2-0d5c4c96fce8",
             "Value": {
                 "id": "0a6f96b2-60dd-45e7-bffa-54a6ae9c0d72",
@@ -164,6 +172,14 @@
                 "id": "8cfe60e9-136d-4604-8a53-670266c774dc",
                 "resourcePath": "views\\3771b40c-87e1-425d-a70c-64fdbfa6e126.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3931f397-75e0-441e-9406-443e79373fc8",
+            "Value": {
+                "id": "8ceddfa4-ebf7-4773-a971-e9cb0f882484",
+                "resourcePath": "scripts\\RPG_Party_Info\\RPG_Party_Info.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -559,6 +575,14 @@
             }
         },
         {
+            "Key": "c2fb455b-15a9-4308-8124-cbc8064f8f10",
+            "Value": {
+                "id": "ae8eb75b-6268-435c-9a0d-35d20ec5b25a",
+                "resourcePath": "scripts\\RPG_Party_Get_Stats_By_Index\\RPG_Party_Get_Stats_By_Index.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c6fa6b8d-4feb-4b13-8aee-6364c22c6e94",
             "Value": {
                 "id": "3e026bef-b46c-4f21-9aba-af0d5dfebb79",
@@ -615,6 +639,14 @@
             }
         },
         {
+            "Key": "d91b0020-79ab-4deb-b661-6788d5f6267c",
+            "Value": {
+                "id": "286461c9-9c87-48d6-82f5-c448dca0d8ca",
+                "resourcePath": "scripts\\RPG_Party_Get_Stats_By_Name\\RPG_Party_Get_Stats_By_Name.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "df570eb8-9154-46bb-b7c7-8412cc0cc446",
             "Value": {
                 "id": "17737c73-7f86-479a-a714-9d4ba682e2b1",
@@ -644,6 +676,14 @@
                 "id": "8b0a420c-a29f-4192-a003-29b0c5d081a5",
                 "resourcePath": "views\\e9256697-02fd-40f8-9fa7-a959da7362c0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ec886bd8-894f-45ec-a370-eebe65ea3e6c",
+            "Value": {
+                "id": "5ca58159-2db7-4c3d-a1dd-38e252b24706",
+                "resourcePath": "scripts\\RPG_Party_Get_By_Index\\RPG_Party_Get_By_Index.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -698,10 +738,15 @@
     "script_order": [
         "7f289b0d-adae-4c9b-bc39-c359fd2ebf35",
         "954b033b-e4a6-4443-b6a9-8697c0489ae0",
+        "3931f397-75e0-441e-9406-443e79373fc8",
         "f5269ebd-22a3-4415-bc40-3cc02ff85b9a",
+        "ec886bd8-894f-45ec-a370-eebe65ea3e6c",
         "c709b416-4911-45e4-86d4-1b18fffe1bbc",
+        "05ca6be2-db6f-40d2-918c-d044d5daf1bc",
         "d1063a65-dbe3-41a9-b7ce-0c7d73af4add",
+        "c2fb455b-15a9-4308-8124-cbc8064f8f10",
         "8b0e5595-6565-4afe-af63-bb295a403969",
+        "d91b0020-79ab-4deb-b661-6788d5f6267c",
         "8a558a7b-9ed0-4b8c-a23f-f86c17f54e0e",
         "82eeae81-7fbb-44ce-a7d8-ac0a7b084e7f",
         "e1e50ceb-dca6-4c7d-adf0-ba6ce13d8c04",
