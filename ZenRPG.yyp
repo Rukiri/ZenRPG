@@ -154,7 +154,7 @@
             "Key": "35bbe0ed-9eb2-4353-bac6-4acc6523498e",
             "Value": {
                 "id": "5c1aedb6-1668-48b4-b601-b02e289589fb",
-                "resourcePath": "scripts\\RPG_Party_Member_exists\\RPG_Party_Member_exists.yy",
+                "resourcePath": "scripts\\RPG_Party_Member_Exists\\RPG_Party_Member_Exists.yy",
                 "resourceType": "GMScript"
             }
         },

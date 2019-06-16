@@ -15,4 +15,4 @@ for (var i = 0; i < RPG_Party_Count(); i += 1) {
 	draw_text(6, 16+i*16, "Name:" + " " + string(map) + " " + "Index in Party: " + "" + string(ds_list_find_value(party_group, i)));
 }
 
-draw_text(6,64, RPG_Party_Member_exists(0));
+draw_text(6,64, RPG_Party_Member_Exists(0));
