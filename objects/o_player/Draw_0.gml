@@ -15,13 +15,4 @@ for (var i = 0; i < RPG_Party_Count(); i += 1) {
 	draw_text(6, 16+i*16, "Name:" + " " + string(map) + " " + "Index in Party: " + "" + string(ds_list_find_value(party_group, i)));
 }
 
-//draw_text(6,16, string(test));
-/*
-var datamap = ds_list_find_value(party_database, 2)
-draw_text(6,16, ds_list_find_value(party_database, i));
-ds_map_replace(datamap, Actor.Name, "Dummy");
-var datamap1 = ds_list_find_value(party_database, 1)
-draw_text(6,32, string(ds_map_find_value(datamap1, Actor.Name)));
-ds_map_replace(datamap1, Actor.Name, "Not Cloud");
-draw_text(6,48, string(ds_map_find_value(datamap1, Actor.Class)));
-*/
+draw_text(6,64, RPG_Party_Member_exists(0));

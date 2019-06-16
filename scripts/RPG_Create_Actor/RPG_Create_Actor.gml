@@ -45,7 +45,7 @@ RPG_Party_Data_Assign(map, Actor.Experience, experience); // Actor Experience
 
 // Add Actor to Party?
 if (argument13 == true) {
-	if (RPG_Party_Count() < RPG_Party_Max_Size()) {
+	if (RPG_Party_Count() <= RPG_Party_Max_Size()) {
 		 // Good! There was a slot available! (this is easy)
 		ds_list_add(party_group, map);
 	} else {

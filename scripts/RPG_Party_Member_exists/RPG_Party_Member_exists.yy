@@ -1,8 +1,8 @@
 {
-    "id": "d91b0020-79ab-4deb-b661-6788d5f6267c",
+    "id": "35bbe0ed-9eb2-4353-bac6-4acc6523498e",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "RPG_Party_Get_Stats_By_Name",
+    "name": "RPG_Party_Member_exists",
     "IsCompatibility": false,
     "IsDnD": false
 }

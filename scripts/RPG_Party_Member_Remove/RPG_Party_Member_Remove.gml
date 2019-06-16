@@ -1,15 +1,14 @@
 //--------------------------------------------------------------------
-// RPG Get Actor Stats
+// RPG Party Member Add
 //--------------------------------------------------------------------
 
-var i, size;
-size = RPG_Party_Database_Count();
-
-for(i = 0; i <= size; i +=1) {
-	if(ds_map_find_value(ds_list_find_value(party_database, i), Actor.Name) == string(argument0)) {
-       // Woo! We found the correct index location
-	  return i;
-    }
+// Checks to see if the Actor is already in the party and removes him
+if (RPG_Party_Member_exists(argument0)) {
+	ds_list_delete(party_group, RPG_Actor_Info(RPG_Actor_Get_By_Index(argument0)));
+	return 1;
+} else {
+	Error_Log("Index doesn't exist");
+	return -1;	
 }
 
 //--------------------------------------------------------------------

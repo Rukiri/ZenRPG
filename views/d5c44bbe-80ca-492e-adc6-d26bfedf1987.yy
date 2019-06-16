@@ -6,9 +6,7 @@
     "children": [
         "3931f397-75e0-441e-9406-443e79373fc8",
         "ec886bd8-894f-45ec-a370-eebe65ea3e6c",
-        "05ca6be2-db6f-40d2-918c-d044d5daf1bc",
-        "c2fb455b-15a9-4308-8124-cbc8064f8f10",
-        "d91b0020-79ab-4deb-b661-6788d5f6267c"
+        "c2fb455b-15a9-4308-8124-cbc8064f8f10"
     ],
     "filterType": "GMScript",
     "folderName": "Stats",

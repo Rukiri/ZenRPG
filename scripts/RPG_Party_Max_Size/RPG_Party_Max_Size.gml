@@ -1,5 +1,5 @@
 //---------------------------------------------------
-// RPG Actor Database
+// RPG Party Max Size
 /*
 	This is the maximum number
 	of Actors that can be in a party
@@ -7,7 +7,7 @@
 */
 //---------------------------------------------------
 
-return 4; 
+return 3; 
 
 //---------------------------------------------------
 // End Script

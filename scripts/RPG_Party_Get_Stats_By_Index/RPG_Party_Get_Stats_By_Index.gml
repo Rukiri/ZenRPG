@@ -1,5 +1,5 @@
 //--------------------------------------------------------------------
-// RPG Get Actor Stats
+// RPG Get Party Stats By Index
 /*
 	Argument 1 must be
 	Actor.Name
