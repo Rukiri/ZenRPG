@@ -9,7 +9,7 @@ if (RPG_Party_Count() >= RPG_Party_Max_Size()) {
 }
 
 // Checks to see if the Actor is already in the party and if not adds him to the party
-if (RPG_Party_Member_exists(argument0)) {
+if (RPG_Party_Member_Exists(argument0)) {
 	Error_Log("Is in party");	
 	return -1;
 } else {
