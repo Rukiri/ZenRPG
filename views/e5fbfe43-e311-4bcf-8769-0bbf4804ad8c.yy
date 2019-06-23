@@ -5,8 +5,7 @@
     "name": "e5fbfe43-e311-4bcf-8769-0bbf4804ad8c",
     "children": [
         "086fbe27-5774-4997-9bee-9f56638d2641",
-        "177c726c-05c7-4f77-af60-6982be572d9b",
-        "7a45aba0-ecba-49fb-85e7-6d213343b332"
+        "177c726c-05c7-4f77-af60-6982be572d9b"
     ],
     "filterType": "GMScript",
     "folderName": "Database",

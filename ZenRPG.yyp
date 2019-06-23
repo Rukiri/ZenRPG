@@ -319,14 +319,6 @@
             }
         },
         {
-            "Key": "7a45aba0-ecba-49fb-85e7-6d213343b332",
-            "Value": {
-                "id": "3af7e37f-cf77-41d0-b8bb-c404caa98315",
-                "resourcePath": "scripts\\RPG_Party_Database_Get_By_Index\\RPG_Party_Database_Get_By_Index.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "7b39b306-5bd9-4027-959e-28bd9fd5af5e",
             "Value": {
                 "id": "fb029e2b-2c8e-4d7d-a65d-c123bc971840",
@@ -620,7 +612,6 @@
         "cf24c926-9af4-4062-b79b-db23b1fa9aac",
         "086fbe27-5774-4997-9bee-9f56638d2641",
         "177c726c-05c7-4f77-af60-6982be572d9b",
-        "7a45aba0-ecba-49fb-85e7-6d213343b332",
         "7203532d-755c-4f3f-85b5-26ba7e597ba2",
         "105f67a4-6549-4b62-834e-3b1bf4b1531d",
         "4ddca930-cf25-4a57-ba79-2fba41b8e488",
