@@ -13,4 +13,5 @@ if ds_map_find_value(party_leader,Actor.Name) == "Tiffany" {
 draw_text(6,48, "- Party Leader -" + " " + ds_map_find_value(party_leader,Actor.Name));
 draw_text(6,64, "- Active Party -");
 draw_text(6 ,80 +(i * 16), "Actor Name " + ds_map_find_value(map,Actor.Name) + " " + "Menu Slot" + " " + string(i));
-}
+}\
+// t
