@@ -1,1 +1,0 @@
-draw_text_color(0,0,"Location:" + " " + map_location,c_white,c_white,c_white,c_white,alpha_increment);
